@@ -8,7 +8,8 @@ function Home() {
       {/* Contenido */}
       <p>Quieres ver un ejemplo</p>
       <button id='practicar'>Pincha aquí</button>
-      
+      <p>Quieres ver un ejemplo de pagina</p>
+      <a href="https://maelgruand1.github.io/WebVideoJuegos/allGames.html">Web de videojuegos</a>
     </div>
   );
 }
