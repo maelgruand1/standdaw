@@ -4,8 +4,9 @@ import React from 'react';
 function About() {
   return (
     <div>
+      {/* Pagina Acerca de este curso */}
       <h2>Acerca de este curso</h2>
-      {/* Ajoutez ici le contenu de votre page "À propos" */}
+      
     </div>
   );
 }

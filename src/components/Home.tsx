@@ -6,6 +6,9 @@ function Home() {
     <div>
       <h2>Bienvenido a la pagina de inicio</h2>
       {/* Contenido */}
+      <p>Quieres ver un ejemplo</p>
+      <button id='practicar'>Pincha aquí</button>
+      
     </div>
   );
 }
