@@ -20,17 +20,21 @@ function Home() {
   
   return (
     <div>
-      <h2>Bienvenido a la pagina de inicio</h2>
+      <h2>Pagina de inicio</h2>
       <p>Quieres ver un ejemplo</p>
+      <div className='button-group'>
       <button onClick={handlePracticarClick}>Pincha aquí</button>
+      
       <button onClick={handleVideoClick}>Ver la presentación</button>
 
+      </div>
+      
       {/* Affichage conditionnel de Practicar */}
       {showPracticar && <Practicar />}
       {showVideo && <VideoPresent/>}
 
       <p>Quieres ver un ejemplo de pagina</p>
-      <a href="https://maelgruand1.github.io/WebVideoJuegos/allGames.html" target="_blank" rel="noopener noreferrer">
+      <a href="https://stefano-gac.github.io/PaginadeJuegos/" target="_blank" rel="noopener noreferrer">
       Web de videojuegos</a>
     </div>
   );

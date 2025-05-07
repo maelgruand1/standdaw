@@ -32,6 +32,7 @@
   background-color: #007bff; /* Couleur bleue */
   color: white;
   padding: 10px 20px;
+  padding-left: 500px;
   border: none;
   border-radius: 5px;
   font-size: 1rem;
@@ -54,4 +55,16 @@
 
 .home a:hover {
   color: #0056b3; /* Couleur du lien au survol */
+}
+.button-group {
+  display: flex;
+  gap: 20px; /* espace entre les boutons */
+  margin-top: 20px;
+  flex-wrap: wrap; /* pour s’adapter aux petits écrans */
+  justify-content: center; /* centre les boutons horizontalement */
+}
+
+.button-group button {
+  flex: 1 1 auto;
+  max-width: 200px;
 }
