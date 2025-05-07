@@ -1,15 +1,37 @@
-// components/Home.js
-import React from 'react';
+import React, { useState } from 'react';
+import Practicar from './Practicar';
+import './styles/Home.css';
+import VideoPresent from './VideoPresent';
 
 function Home() {
+  // Définir l'état pour afficher ou non le composant Practicar
+  const [showPracticar, setShowPracticar] = useState(false);
+  const [showVideo, setShowVideo] = useState(false);
+
+  const handlePracticarClick = () => {
+    setShowPracticar(true);
+    setShowVideo(false);
+  };
+  
+  const handleVideoClick = () => {
+    setShowVideo(true);
+    setShowPracticar(false);
+  };
+  
   return (
     <div>
       <h2>Bienvenido a la pagina de inicio</h2>
-      {/* Contenido */}
       <p>Quieres ver un ejemplo</p>
-      <button id='practicar'>Pincha aquí</button>
+      <button onClick={handlePracticarClick}>Pincha aquí</button>
+      <button onClick={handleVideoClick}>Ver la presentación</button>
+
+      {/* Affichage conditionnel de Practicar */}
+      {showPracticar && <Practicar />}
+      {showVideo && <VideoPresent/>}
+
       <p>Quieres ver un ejemplo de pagina</p>
-      <a href="https://maelgruand1.github.io/WebVideoJuegos/allGames.html">Web de videojuegos</a>
+      <a href="https://maelgruand1.github.io/WebVideoJuegos/allGames.html" target="_blank" rel="noopener noreferrer">
+      Web de videojuegos</a>
     </div>
   );
 }
