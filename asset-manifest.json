@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/standdaw/static/css/main.684fee9a.css",
-    "main.js": "/standdaw/static/js/main.08f4e1cb.js",
+    "main.js": "/standdaw/static/js/main.725fae2e.js",
     "static/media/logo.png": "/standdaw/static/media/logo.cf737f509a58dbc681ea.png",
     "index.html": "/standdaw/index.html",
     "main.684fee9a.css.map": "/standdaw/static/css/main.684fee9a.css.map",
-    "main.08f4e1cb.js.map": "/standdaw/static/js/main.08f4e1cb.js.map"
+    "main.725fae2e.js.map": "/standdaw/static/js/main.725fae2e.js.map"
   },
   "entrypoints": [
     "static/css/main.684fee9a.css",
-    "static/js/main.08f4e1cb.js"
+    "static/js/main.725fae2e.js"
   ]
 }
